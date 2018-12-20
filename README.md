@@ -103,7 +103,10 @@ $host = $args->getOpt('host', '127.0.0.1'); // get host with default 127.0.0.1
 $user = $args->getOpt('user'); // get user
 $database = $args['database']; // use the args like an array too
 $port = $args->getOpt('port', 123); // get port with default 123
+$command = $args->getCommand('push'); // get a command argument
 ```
+
+
 
 ## Multiple Commands Example
 
